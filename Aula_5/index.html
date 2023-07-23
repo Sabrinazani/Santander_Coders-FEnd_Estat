@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .title {
+            font-size: xx-large;
+        }
+        main {
+            margin-top: 150px;
+        }
+        header {
+            background-color: #f1f1f1;
+            padding-top: 20px;
+            text-align: center;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+        }
+        nav {
+            background-color: #ddd;
+            padding: 15px;
+            height: 50px;
+            margin-top: 20px;
+        }
+        a:hover {
+            font-size: 18px;
+        }
+        a {
+            margin: 5px;
+            text-decoration: none;
+            color: #333;
+        }
+        body {
+            font-family:Arial, Helvetica, sans-serif
+        }
+        section {
+            position: relative;
+            width: 80%;
+            margin: 20px auto;
+        }
+        article {
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        article p {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        figcaption {
+            /* visibility: hidden; */
+            display: none;
+        }
+        html {
+            scroll-padding-top: 150p;
+            scroll-behavior: smooth;
+        }
+        figure {
+            position: absolute;
+            top: 28px;
+            z-index: 2;
+            right: 0;
+        }
+        img {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title">
+            Meu Site
+        </h1>
+        <nav>
+            <a href="#1">React</a>
+            <a href="#2">Angular</a>
+            <a href="#3">VueJs</a>
+        </nav>
+    </header>
+    <main>
+        <section id="1">
+            <h2>
+                React Js
+            </h2>
+            <article>
+                <h3>
+                    Como usar o ReactJs
+                </h3>
+                <p>
+                    sdjfsoif siofjsiofjsd, dijfiosdjfos fiosdjf siofj fosijf, oisdfjsoifjs oifjs of sfio jsoifjofi sfsf sdoifhoi vfviohvih vioj ovsv huhv uifhsdhfiuds dsi hdivh siujsdi fhsiu f sduihudvh iudvhf ifh sihos hfv ihvisudvh sddhfsdif. Idsj djdfsd fuiuegh fi ghdifuver wriuweruwe, dueoie jwb cwied hefuhsdoid s shcbc sdishc sdcuih svhiusb;
+                </p>
+            </article>
+            <figure>
+                <img src="./assets/memebonoro.jpg" alt="Logo do React">
+                <figcaption>Logo do React</figcaption>
+            </figure>
+        </section>
+        <section id="2">
+            <h2>
+                Angular
+            </h2>
+            <article>
+                <h3>
+                    Como usar o Angular
+                </h3>
+                <p>
+                    sdjfsoif siofjsiofjsd, dijfiosdjfos fiosdjf siofj fosijf, oisdfjsoifjs oifjs of sfio jsoifjofi sfsf sdoifhoi vfviohvih vioj ovsv huhv uifhsdhfiuds dsi hdivh siujsdi fhsiu f sduihudvh iudvhf ifh sihos hfv ihvisudvh sddhfsdif. Idsj djdfsd fuiuegh fi ghdifuver wriuweruwe, dueoie jwb cwied hefuhsdoid s shcbc sdishc sdcuih svhiusb;
+                </p>
+            </article>
+            <figure>
+                <img src="./assets/mean.jpg" alt="Logo do Angular">
+                <figcaption>Logo do Angular</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>
+            2023 Meu Site. Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+</html>
