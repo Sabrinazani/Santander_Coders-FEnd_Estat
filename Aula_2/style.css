@@ -1,0 +1,35 @@
+
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid rgb(194, 194, 233);
+            padding: 5px;
+        }
+        td+td {
+            text-align: center;
+        }
+        .b {
+            background-color: #7ebff2;
+            color: white;
+        }
+        .p {
+            background-color: #4a87ec;
+            color: white;
+        }
+        .a {
+            background-color: #7073ec;
+            color: white;
+        }
+        .invisivel {
+            border: none;
+        }
+        .plano {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        button {
+            border: none;
+            height: 30px;
+            width: 130px;
+        }

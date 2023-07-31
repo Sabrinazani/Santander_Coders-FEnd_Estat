@@ -1,0 +1,35 @@
+<!-- 19/07/2023 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <button id="btnEnviar" aria-label="Botão para envio de formulário">
+      Enviar
+    </button>
+
+    <script>
+      function trocarAriaLabel() {
+        const botaoDeEnvio = document.getElementById("btnEnviar");
+        if (
+          botaoDeEnvio.getAttribute("aria-label") ===
+          "Botão para envio de formulário"
+        ) {
+          botaoDeEnvio.setAttribute(
+            "aria-label",
+            "Botao para reenvio de formulario"
+          );
+        }
+        else {
+            botaoDeEnvio.setAttribute("aria-label", "Botao para reenvio de formulario")
+        }
+      }
+
+      trocarAriaLabel();
+      
+      const botaoDeEnvio = document.getElementById("btnEnviar");
+      botaoDeEnvio.addEventListener("click", trocarAriaLabel)
+    </script>
+  </body>
+</html>
